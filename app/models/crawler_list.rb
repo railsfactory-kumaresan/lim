@@ -28,7 +28,7 @@ class CrawlerList < ApplicationRecord
         end
       end
       content
-    rescue => e
+    rescue
       'Invalid URL'
     end
   end
